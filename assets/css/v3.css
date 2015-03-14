@@ -1,0 +1,11 @@
+* { margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; overflow: hidden; background-color: #002A3D; position: absolute;font-family: 'Atlas Grotesk Web'; }
+table { border-collapse: collapse; width: 100%; height: 100%; text-align: center; }
+td {position: relative;}
+
+.logo { position: relative; display: inline-block; top: -49px; height: 178px; width: 250px; }
+.logo img { display: block; height: 100%; width: 100%; position: absolute; top: 0; left: 0; opacity: 1; -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1); transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1); }
+.logo.hide img { opacity: 0; }
+.logo.hide .img2 { top: -15px; }
+
+.email { position: absolute; bottom: 40px; left: 50%; color: #D1D3D4; width: 200px; text-align: center; margin-left: -100px; text-decoration: none; font-size: 12px; line-height: 1.5em; display: none; }
