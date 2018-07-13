@@ -22,9 +22,9 @@ td {position: relative;}
 	transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .zoom {
-	-webkit-transform: rotate(45deg) scale(1000); 
-	  	-ms-transform: rotate(45deg) scale(1000); 
-	    	transform: rotate(45deg) scale(1000);
+	-webkit-transform: rotate(2000deg) scale(1000); 
+	  	-ms-transform: rotate(2000deg) scale(1000); 
+	    	transform: rotate(2000deg) scale(1000);
 }
 
 .contact-info {
